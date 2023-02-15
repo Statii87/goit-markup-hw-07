@@ -1,0 +1,11 @@
+@import '../sass/utils/variables';
+@import '../sass/components/mobile-menu';
+body {
+  margin: 0 auto;
+  max-width: 1600px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+@import '../sass/components/header-section';
