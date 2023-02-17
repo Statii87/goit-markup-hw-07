@@ -58,6 +58,7 @@
         display: flex;
         align-items: center;
         gap: 10px;
+        text-decoration: none;
 
         &:hover,
         &:focus,
@@ -80,7 +81,7 @@
     }
 
 }
-@media (min-width: 1024px){
+@media (min-width: 1200px){
     .page-header{
         max-width: 1200px;
         margin: 0  auto;
