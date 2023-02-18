@@ -12,6 +12,7 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
+        padding-bottom: 60px;
     }
 }
 .team__list{
@@ -58,12 +59,22 @@
     }
 }
 @media screen and (min-width: 768px){
-    .team__list img{
+    .team{
+    &__list img{
         width: 354px;
     }
+    &__item{
+        padding-bottom: 60px;
+    }
+  }
 }
 @media screen and (min-width: 1200px){
-    .team__list img{
+    .team{
+    &__list img{
         width: 270px;
     }
+    &__item{
+        padding-bottom: 94px;
+    }
+  }
 }

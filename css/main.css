@@ -836,6 +836,7 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  padding-bottom: 60px;
 }
 
 .team__list {
@@ -885,9 +886,58 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
   .team__list img {
     width: 354px;
   }
+  .team__item {
+    padding-bottom: 60px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .team__list img {
     width: 270px;
+  }
+  .team__item {
+    padding-bottom: 94px;
+  }
+}
+.customers-section {
+  max-width: 1200px;
+  margin: 94px auto;
+}
+
+.icon-customers {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  fill: #AFB1B8;
+}
+.icon-customers:focus, .icon-customers:active, .icon-customers:hover {
+  fill: #2196F3;
+  cursor: pointer;
+  border: 1px solid #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.grid-customers {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+.grid-customers__item {
+  flex-basis: calc((100% - 30px) / 2);
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-customers__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .grid-customers__item {
+    flex-basis: calc((100% - 150px) / 6);
   }
 }/*# sourceMappingURL=main.css.map */
