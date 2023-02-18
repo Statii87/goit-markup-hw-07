@@ -679,7 +679,7 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
 }
 .description-section {
   max-width: 1200px;
-  margin: 94px auto;
+  margin-top: 94px;
   display: flex;
   justify-content: center;
 }
@@ -763,6 +763,9 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
     flex-grow: 0;
     flex-shrink: 0;
   }
+  .description-section {
+    margin: 94px auto;
+  }
   .description-section__svg {
     width: 270px;
   }
@@ -774,6 +777,7 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
   }
 }
 .what-we-do-section {
+  display: none;
   max-width: 1200px;
   margin: 94px auto;
   padding: 0;
@@ -815,5 +819,75 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
 @media screen and (min-width: 1200px) {
   .what-we-do-section {
     display: block;
+  }
+}
+.team {
+  background-color: #F5F4FA;
+  padding: 0;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.team__item {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team__list {
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  list-style-type: none;
+}
+.team__list-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+  margin: 30px 0 10px;
+}
+.team__list-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+  margin: 0 0 16px;
+}
+
+.social-team {
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-team .social-icon--color {
+  color: #AFB1B8;
+}
+
+@media screen and (min-width: 480px) {
+  .team__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__list img {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__list img {
+    width: 270px;
   }
 }/*# sourceMappingURL=main.css.map */

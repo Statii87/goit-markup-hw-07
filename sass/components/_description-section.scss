@@ -1,6 +1,6 @@
 .description-section{
     max-width: 1200px;
-    margin: 94px auto;
+    margin-top: 94px;
     display: flex;
     justify-content: center;
    
@@ -91,6 +91,7 @@
       
     }
     .description-section{
+        margin: 94px auto;
         &__svg{
             width: 270px;
         }
