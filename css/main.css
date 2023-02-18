@@ -178,6 +178,38 @@ body {
   letter-spacing: 0.03em;
 }
 
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212121;
+  line-height: 1.16;
+  margin-bottom: 50px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus,
+.social-link:active {
+  background-color: #2196F3;
+  border-radius: 50%;
+  fill: #fff;
+}
+
 .logo {
   text-decoration: none;
   color: #2196F3;
@@ -702,6 +734,12 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
     flex-basis: calc((100% - 30px) / 2);
     flex-grow: 0;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 354px;
+    margin: 0 auto;
   }
   .description-section__svg {
     width: 354px;
@@ -710,7 +748,7 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
     width: 354px;
   }
   .description-section__subtitle {
-    text-align: left;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -732,6 +770,50 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
     width: 270px;
   }
   .description-section__subtitle {
-    text-align: left;
+    margin-right: auto;
+  }
+}
+.what-we-do-section {
+  max-width: 1200px;
+  margin: 94px auto;
+  padding: 0;
+}
+.what-we-do-section__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+
+.image-list {
+  position: relative;
+  list-style-type: none;
+}
+.image-list__title {
+  position: absolute;
+  bottom: 2px;
+  background: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 468px) {
+  .what-we-do-section {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .what-we-do-section {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .what-we-do-section {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */

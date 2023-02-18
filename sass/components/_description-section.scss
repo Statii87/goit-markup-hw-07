@@ -58,6 +58,12 @@
         flex-basis: calc((100% - 30px)/ 2);
         flex-grow: 0;
         flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 354px;
+        margin: 0 auto;
     }
     .description-section{
         &__svg{
@@ -67,7 +73,7 @@
             width: 354px;
         }
         &__subtitle{
-            text-align: left;
+            margin-right: auto;
         }
 }
 }
@@ -82,6 +88,7 @@
         flex-basis: calc((100% - 90px)/ 4);
         flex-grow: 0;
         flex-shrink: 0;
+      
     }
     .description-section{
         &__svg{
@@ -91,7 +98,7 @@
             width: 270px;
         }
         &__subtitle{
-            text-align: left;
+            margin-right: auto;
         }
 }
 }
