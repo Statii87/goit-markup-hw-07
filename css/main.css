@@ -1122,7 +1122,7 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
 }
 .project-img__list {
   border: 1px solid #eeeeee;
-  max-width: 370px;
+  max-width: 450px;
 }
 .project-img__list:hover, .project-img__list:focus, .project-img__list:active {
   cursor: pointer;
@@ -1187,6 +1187,13 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .project-img__list {
+    max-width: 354px;
+    height: 440px;
+  }
+  .img-portfolio {
+    width: 354px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .project-item {
@@ -1205,5 +1212,9 @@ input[type=checkbox]:checked + .check-box-replace + .icon-check {
     flex-basis: calc((100% - 60px) / 3);
     flex-shrink: 0;
     flex-grow: 0;
+    max-width: 370px;
+  }
+  .img-portfolio {
+    width: 370px;
   }
 }/*# sourceMappingURL=main.css.map */
