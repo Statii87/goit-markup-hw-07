@@ -28,9 +28,11 @@ body {
    align-items: center;
    gap: 10px;
    fill: currentColor;
-}
-.grid__link {
+}.grid {
+ list-style-type: none;
+    &__link {
   text-decoration: none;
+}
 }
 .social-link:hover,
 .social-link:focus,
@@ -48,3 +50,4 @@ body {
 @import '../sass/components/our-team-section';
 @import '../sass/components/costumers-section';
 @import '../sass/components/footer-section';
+@import '../sass/components/portfolio'
