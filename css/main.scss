@@ -29,6 +29,9 @@ body {
    gap: 10px;
    fill: currentColor;
 }
+.grid__link {
+  text-decoration: none;
+}
 .social-link:hover,
 .social-link:focus,
 .social-link:active{
@@ -44,3 +47,4 @@ body {
 @import '../sass/components/what-we-do-section';
 @import '../sass/components/our-team-section';
 @import '../sass/components/costumers-section';
+@import '../sass/components/footer-section';
